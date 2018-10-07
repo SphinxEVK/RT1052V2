@@ -2,7 +2,7 @@
 
 ---
 
-**SphinxEVK**是由SphinxEVK项目成员[StackYuan](https://github.com/StackYuan)设计的，基于I.MXRT1052系列MCU的核心板。使用了4-layer，4mil/4mil(线宽/线间距)，直径8mil/6mil(孔/焊环)的生产工艺，可以被当前主流PCB打样厂生产。
+**SphinxEVK**是由SphinxEVK项目成员[StackYuan](https://github.com/StackYuan)设计的，基于I.MXRT1052系列MCU的核心板。使用了4-layer，4mil/4mil(线宽/线间距)，直径8mil/14mil(孔/带焊环)的生产工艺，可以被当前主流PCB打样厂生产。
 
 注: 
 
