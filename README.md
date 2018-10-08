@@ -1,7 +1,5 @@
 # RT1052V2
 
----
-
 **SphinxEVK**是由SphinxEVK项目成员[StackYuan](https://github.com/StackYuan)设计的，基于I.MXRT1052系列MCU的核心板。板上关键信号(SDRAM, nor flash, sd card)均设计了等长，使用了4-layer，4mil/4mil(线宽/线间距)，直径8mil/14mil(孔/带焊环)的生产工艺，可以被当前主流PCB打样厂生产。
 
 注: 
@@ -9,6 +7,8 @@
 > 开发板设计了严格的上电时序和电源域，同时兼容RT1052 A0和A1版本。
 > 
 > 为了减小体积，开发板使用50mil/1.27mm排针设计。如调试飞线感到不便，工程下也提供了标准100mil/2.54mm的IO拓展板：**SphinxEVK_ExtIO.PcbDoc**。
+
+---
 
 **板上资源：**
 
