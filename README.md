@@ -6,7 +6,7 @@
 
 > 开发板设计了严格的上电时序和电源域，同时兼容RT1052 A0和A1版本。
 > 
-> 为了减小体积，开发板使用50mil/1.27mm排针设计。如调试飞线感到不便，工程下也提供了标准100mil/2.54mm的IO拓展板：**SphinxEVK_ExtIO.PcbDoc**。
+> 为了减小体积，开发板使用78mil/2.00mm排针设计。如调试飞线感到不便，工程下也提供了标准100mil/2.54mm的IO拓展板：**SphinxEVK_ExtIO.PcbDoc**。
 
 ---
 
@@ -33,7 +33,15 @@
 > 10.引出所有非关键IO
 
 ---
+**勘误：**
 
+> 1.使用LQ神眼摄像头时，由于IIC线序错误，故使用软件IIC进行初始化
+> 
+> 2.SD卡可能会出现枚举失败问题，原因是进入高速模式时，主芯片NVCC_SDIO脚不能完成3.3V->1.8V电压的切换。建议暂使用低速模式。
+> 
+> 3.UART1 RXD未设置上拉，可能在进行ISP模式时由于RT的内部bootloader检测失误，造成USB下载模式不能进入。
+> 
+---
 **SphinxEVK实物图**
 
 ![image](https://github.com/SphinxEVK/RT1052V2/blob/master/SphinxEVK.jpg)
